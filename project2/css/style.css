@@ -1,0 +1,116 @@
+body{
+	font-size: 200%;
+	font-family: 'BPG Ingiri Arial';
+}
+* {
+	box-sizing: border-box;
+}
+#logo{
+	display: inline-block;
+	float: left;
+	width: 200px;
+}
+nav{
+	display: inline-block;
+	line-height: 90px;
+	float: right;
+	width: 80%;
+	height: 90px;
+}
+li{
+	display: inline-block;
+	padding-right: 10px;
+}
+#logo img{
+	width: 200px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.red {
+	color: red;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'BPG Banner Caps';
+}
+header{
+	padding: 30px 0px;
+	max-width: 1300px;
+	margin: auto;
+	font-family: 'BPG Banner Caps';
+}
+.container-space {
+	display: block;
+	margin: auto;
+	padding: 50px 65px;
+	max-width: 1300px;
+}
+#banner {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#banner img{
+	width: 100%;
+} 
+.clear{
+	clear: both;
+}
+#media h2 {+
+	padding-right: 15px; 
+	display: inline-block;
+	padding: 30px 0px;
+}
+.icon{
+	width: 200px;
+}
+#media article{
+	width: 49%;
+	background-color: gray;
+	color: #fff;
+	padding: 30px
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.left p {
+	color: black;
+}
+.right p {
+	color: black;
+}
+.article-container{
+	margin-top: 30px;
+}
+#media article img {
+	float: left;
+	display: inline-block;
+	width: 30%;
+}
+#media article p {
+	display: inline-block;
+	width: 70%;
+}
+#media article h1 {
+	margin-bottom: 15px;
+}
+.icon-social1{
+	width: 50px;
+	float: left;
+}
+.icon-social2{
+	width: 50px;
+	float: left;
+}
+.xazi{
+	float: left; 
+}
+.left h1 {
+	color: blue;
+}
+.right h1 {
+	color: blue;
+}

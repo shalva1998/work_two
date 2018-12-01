@@ -78,9 +78,11 @@ header{
 }
 .left p {
 	color: black;
+	font-family: 'BPG Banner Caps';
 }
 .right p {
 	color: black;
+	font-family: 'BPG Banner Caps';
 }
 .article-container{
 	margin-top: 30px;

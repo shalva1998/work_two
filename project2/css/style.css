@@ -26,17 +26,13 @@ li{
 }
 a {
 	text-decoration: none;
-	color: inherit;
-}
-.red {
-	color: red;
+	color: blue;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'BPG Banner Caps';
 }
 header{
 	padding: 30px 0px;
-	max-width: 1300px;
 	margin: auto;
 	font-family: 'BPG Banner Caps';
 }
@@ -46,13 +42,6 @@ header{
 	padding: 50px 65px;
 	max-width: 1300px;
 }
-#banner {
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-#banner img{
-	width: 100%;
-} 
 .clear{
 	clear: both;
 }
@@ -99,20 +88,63 @@ header{
 #media article h1 {
 	margin-bottom: 15px;
 }
-.icon-social1{
-	width: 50px;
-	float: left;
-}
-.icon-social2{
-	width: 50px;
-	float: left;
-}
-.xazi{
-	float: left; 
-}
 .left h1 {
 	color: blue;
 }
 .right h1 {
 	color: blue;
+}
+.news{
+	float: left;
+	width: 25%;
+	padding: 1%;
+}
+#new{
+	background-color: #c3c8ca;
+}
+.news a {
+	display: block;
+	background-color: white;
+	padding-left: 20px;
+	position: relative;
+	bottom: 10px;
+}
+.news img{
+	width: 100%;
+}
+button {
+	background-color: gray;
+	color: white;
+	padding: 10px 30px;
+}
+#media{
+	background: gray;
+}
+#video{
+	background-color: blue;
+}
+#video h2{
+	color: white;
+	display: inline-block;
+}
+.container-flex-space{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.container-flex-space div{
+	height: 320px;
+	width: 49%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: blue;
+}
+.container-flex-space-mini div{
+	border: 2px solid white;
+	width: 10px;
+	height: 10px;
+	display: flex;
+	justify-content: center;
 }
